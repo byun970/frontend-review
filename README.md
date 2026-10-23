@@ -1,4 +1,4 @@
-# frontend-review
+# 🔍 frontend-review
 
 A Claude Code skill that evaluates an already-built frontend screen, page, or
 component for UI composition (layout, spacing, visual hierarchy, design-system
