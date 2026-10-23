@@ -16,16 +16,19 @@ This repository is both a Claude Code **plugin marketplace** and the single
 ## Install
 
 ```
-/plugin marketplace add byun970/frontend-review
-/plugin install frontend-review@byun970-skills
+claude plugin install frontend-review --marketplace byun970/frontend-review
 ```
 
-or, from a terminal:
+or, from inside a Claude Code session:
 
 ```
-claude plugin marketplace add byun970/frontend-review
-claude plugin install frontend-review@byun970-skills
+/plugin install frontend-review --marketplace byun970/frontend-review
 ```
+
+(Requires Claude Code 2.1.292+ for the terminal form, 2.1.275+ for the
+in-session form. On an older version, add the marketplace and install
+separately: `claude plugin marketplace add byun970/frontend-review` then
+`claude plugin install frontend-review@byun970-skills`.)
 
 ## Usage
 
