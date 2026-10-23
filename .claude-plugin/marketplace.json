@@ -1,0 +1,12 @@
+{
+  "name": "byun970-skills",
+  "description": "Claude Code plugins by byun970",
+  "owner": { "name": "byun970", "url": "https://github.com/byun970" },
+  "plugins": [
+    {
+      "name": "frontend-review",
+      "source": "./plugins/frontend-review",
+      "description": "Evaluates built frontend screens for UI composition, design-system consistency, responsiveness, accessibility, and performance."
+    }
+  ]
+}

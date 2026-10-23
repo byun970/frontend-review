@@ -1,0 +1,9 @@
+{
+  "name": "frontend-review",
+  "description": "Evaluates built frontend screens for UI composition, design-system consistency, responsiveness, accessibility, and performance.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": { "name": "byun970", "url": "https://github.com/byun970" },
+  "homepage": "https://github.com/byun970/frontend-review",
+  "repository": "https://github.com/byun970/frontend-review"
+}

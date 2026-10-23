@@ -80,7 +80,10 @@ as you go so the final report can cite it.
    - `javascript_tool` + `getComputedStyle` to pull foreground/background colors
      for key text, then compute contrast ratio and compare against the WCAG
      thresholds in `references/accessibility-checklist.md`.
-7. **Optional tool-assisted pass** — run `scripts/check-audit-tools.js` to detect
+7. **Optional tool-assisted pass** — run `scripts/check-audit-tools.js` (when this
+   skill is installed as a plugin, that path is
+   `${CLAUDE_PLUGIN_ROOT}/skills/frontend-review/scripts/check-audit-tools.js`;
+   as a loose skill it's just the `scripts/` folder next to this file) to detect
    whether axe-core or Lighthouse CLI are available in the project (global, local
    `node_modules/.bin`, or `package.json` devDependencies). If present, run them
    and fold the results in, clearly labeled as tool-sourced. If absent, say so in
